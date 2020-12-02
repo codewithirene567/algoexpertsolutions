@@ -1,10 +1,8 @@
 function isValidSubsequence(array, sequence) {
     // Write your code here.
-      let j=0
+      let j=0 // this is the second array index for the sequence numbers
       for(i=0; i < array.length; i++){
-          console.log(array[i])
-          console.log(sequence[i])
-          
+        //look through the main array until 
           if (array[i] === sequence[j]) {
               j++
           }
