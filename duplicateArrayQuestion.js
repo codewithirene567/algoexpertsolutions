@@ -40,3 +40,4 @@ function secondSolution(array){
         //return the answer
     return newAnswer
 }
+}
