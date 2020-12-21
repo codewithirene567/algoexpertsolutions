@@ -23,3 +23,11 @@ function isPalindrome(string) {
        }
        return string === reversedString
   }
+
+  //using a pointer system for the last solution
+  //each pointer is an index
+  function isPalindrome(string) {
+    // Write your code here.
+      let leftPointer = 0
+      let rightPointer = string.length-1
+  } 
