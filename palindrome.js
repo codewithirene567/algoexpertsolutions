@@ -13,3 +13,13 @@ function isPalindrome(string) {
       }
   }
 
+  //second solution which uses a for loop but does the same thing
+  //creates a new empty string instead directly with a variable
+  function isPalindrome(string) {
+    // Write your code here.
+       const reversedString = ''
+       for (let i = string.length -1; i>=0; i--){
+           reversedString += string[i];
+       }
+       return string === reversedString
+  }
