@@ -30,4 +30,10 @@ function isPalindrome(string) {
     // Write your code here.
       let leftPointer = 0
       let rightPointer = string.length-1
-  } 
+      while (leftPointer < rightPointer){
+		if(string[leftPointer] !== string[rightPointer]) return false;
+		leftPointer++;
+		rightPointer--;
+	}
+	return true
+}
