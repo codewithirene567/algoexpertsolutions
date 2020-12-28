@@ -43,4 +43,6 @@ function shiftToUpdate(array, number, index){
 			//update the last index to be the last number in our array
 			array[i] = number
 		} else {
-			
+			array[i] = array[i +1]
+		}
+	}
