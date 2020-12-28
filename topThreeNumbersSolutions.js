@@ -16,4 +16,10 @@ function findThreeLargestNumbers(array) {
         if(threeNumbers[2] === null || number > threeNumbers[2]){
             //compare the current number to the largest value in our largest three numbers array
             //checks one by one if these numbers are none or if the number is greater than the current number
-            
+            shiftToUpdate(threeNumbers, number, 2)
+	} else if (threeNumbers[1] === null || number > threeNumbers[1]){
+		//otherwise if our second largest number is null or if the number we are on 
+		//is bigger than the second number in our numbers array 
+		//then call our helper method and pass in the three numbers array,
+		//the number we are on and the second index
+		shiftToUpdate(threeNumbers, number, 1)
