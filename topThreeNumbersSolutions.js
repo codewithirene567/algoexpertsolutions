@@ -45,4 +45,5 @@ function shiftToUpdate(array, number, index){
 		} else {
 			array[i] = array[i +1]
 		}
-	}
+    }
+}
