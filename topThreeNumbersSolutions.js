@@ -22,4 +22,13 @@ function findThreeLargestNumbers(array) {
 		//is bigger than the second number in our numbers array 
 		//then call our helper method and pass in the three numbers array,
 		//the number we are on and the second index
-		shiftToUpdate(threeNumbers, number, 1)
+        shiftToUpdate(threeNumbers, number, 1)
+    } else if (threeNumbers[0] === null || number > threeNumbers[0]){
+        //otherwise if our smallest number in our top three numbers
+//is null or if the number we are on 
+//is bigger than the first number in our numbers array 
+//then call our helper method and pass in the three numbers array,
+//the number we are on and the first index
+shiftToUpdate(threeNumbers, number, 0)
+}
+}
