@@ -11,3 +11,9 @@ function findThreeLargestNumbers(array) {
       //eventually return the three numbers
           
       }
+//first helper method
+      function updateLargest(threeNumbers, number){
+        if(threeNumbers[2] === null || number > threeNumbers[2]){
+            //compare the current number to the largest value in our largest three numbers array
+            //checks one by one if these numbers are none or if the number is greater than the current number
+            
