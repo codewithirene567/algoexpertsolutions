@@ -32,3 +32,15 @@ function findThreeLargestNumbers(array) {
 shiftToUpdate(threeNumbers, number, 0)
 }
 }
+
+//second helper method 
+function shiftToUpdate(array, number, index){
+	//in our new helper method go through our original array and if 
+	//our index we are checking is equal to our index implemented
+	//then assign the number are on in our array to the number variable
+	for(let i=0; i <=index; i++){
+		if (i === index){
+			//update the last index to be the last number in our array
+			array[i] = number
+		} else {
+			
