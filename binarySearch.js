@@ -5,3 +5,8 @@ function binarySearch(array, target) {
         let middle = Math.floor((left+right) / 2)
         if(array[middle] === target){
             return array.indexOf(target)
+        } else if (array[middle] > target){
+            right = middle-1
+           } else if (array[middle] < target){
+            left = middle +1
+           }
