@@ -10,3 +10,6 @@ function binarySearch(array, target) {
            } else if (array[middle] < target){
             left = middle +1
            }
+    }
+           return -1
+          }
