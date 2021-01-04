@@ -13,3 +13,9 @@ function binarySearch(array, target) {
     }
            return -1
           }
+          //first initialize both sides
+          //use a for loop to look through everything
+          //wrote an if statement to be the final return
+          //else if statements are written to move the pointers to their place to 
+          //eliminate numbers
+          //if not found, return -1 
